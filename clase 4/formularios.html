@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formularios en html</h1>
+    <form>
+        <label for="nombre">ingrese su nombre</label>
+        <input 
+            type="text" 
+            minlength="5"  
+            maxlength="10" 
+            placeholder="cristian" 
+            id="nombre" 
+            value="pepe"> 
+
+        <label for="password">ingrese su contraseña</label>
+        <input type="password" id="password">
+        <button type="submit">generar contraseña</button>
+        <button type="submit">validar si es segura</button>
+        <input type="number" min="1" max="10">
+        <input type="email" required>
+        <input type="file">
+
+        <input type="date">
+        <input type="datetime-local">
+
+        <label for="mensaje">ingrese su mensaje</label>
+        <textarea 
+            name="mensaje" 
+            maxlength="100" 
+            minlength="4" 
+            required placeholder="escribe aqui tu mensaje..." >
+        </textarea>
+        <br>
+        
+        <span>seleciona tulenguaje preferido</span>
+        <input type="submit" value="iniciar sesion">
+        <input type="submit"> registrar <button>
+        <button type="button">iniciar sesion con google</button>
+</body>
+
+</html>
