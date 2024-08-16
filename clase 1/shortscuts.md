@@ -6,3 +6,4 @@ Control + z : deshacer
 Control + s : Guardar
 
 ALT + SHIFT + A o Control + K + C : Comentario
+control b: para achicar el explorer
