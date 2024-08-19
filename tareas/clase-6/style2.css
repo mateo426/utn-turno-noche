@@ -21,6 +21,7 @@ a{
     text-decoration: underline black solid 1px;
 }
 h2{
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: left;
     text-shadow: 2px 2px 0px grey;
