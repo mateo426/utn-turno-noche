@@ -2,23 +2,26 @@ body{
     background-color: black;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 80px;
     color: white;
     text-align: center;
     text-shadow: 2px 2px 0px grey;
 }
-article{
+.article{
     color: white;
     text-align: justify;
 }
-span{
+.tachado{
     color: red;
     text-decoration: line-through solid 1px;
+    font-size: 18px;
 }
 a{
     color: yellow;
     text-decoration: underline black solid 1px;
+    text-shadow: 0px 0px 3px rgb(229, 255, 0);
+    font-size: 18px;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
