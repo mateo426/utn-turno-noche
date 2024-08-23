@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: yellow;
+}
+
+section
+    { padding-left: 50px;
+}
+
+article{ 
+    background-color: white;
+    height: 285px;
+    width: 200px;
+    box-shadow: 0px 1px 2px grey;
+    border-radius: 8px;
+    border-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo{
+    padding-left: 5px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.imagen{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+.Paga{
+    display: block;
+    font-size: 15px;
+    color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn{
+    background-color: rgb(213,229,250);
+    color: rgb(66,140,250);
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
