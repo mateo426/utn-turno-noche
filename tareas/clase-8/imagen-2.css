@@ -10,7 +10,7 @@ aside{
     flex-direction: column;
     border-radius: 10px;
     width: 300px;
-    height: 550px;
+    height: 600px;
     box-shadow: 0px 0px 3px rgb(194, 191, 191);
     margin-top: 25px;
     margin-left: 30px;
@@ -25,25 +25,42 @@ i{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 15px;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(224, 208, 238);
+    border-radius: 5px;
 }
 
 .btn-2{
-    border-style: none;
-    background-color: white;
-    font-size: 10px;
+    border:transparent;
+    background-color: transparent;
+    font-size: 12px;
+    cursor: pointer;
 }
 
 .btn-3{
-    border-style: none;
-    background-color: white;
+    border:transparent;
+    background-color:transparent;
     color: blueviolet;
-    font-size: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-3:hover{
+    background-color: rgb(224, 208, 238);
+    border-radius: 5px;
 }
 
 .macro{
     font-size: 10px;
     color: rgb(192, 187, 187);
+    padding-right: 10px;
+}
+
+.linea{
+    border-top: 1px solid gray;
 }
 
 .theme{
@@ -60,10 +77,16 @@ i{
     border-radius: 8px;
     border-style: solid 1px grey;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-4:hover{
+    background-color: rgb(224, 208, 238);
+    border-radius: 5px;
 }
 
 .lenguaje{
-    width: 270px;
+    width: 280px;
     padding: 0px 5px;
     align-items: center;
 }
@@ -76,41 +99,41 @@ i{
 .btn-5{
     background-color: rgb(255,255,255);
     border-radius: 5px;
-    border-style: none;
+    border:transparent;
     font-size: 15px;
 }
 
 .btn-6{
     background-color: rgb(248,249,250);
     border-radius: 5px;
-    border-style: none;
+    border:transparent;
     font-size: 15px;
 }
 
 .btn-7{
     background-color: rgb(245,250,255);
     border-radius: 5px;
-    border-style: none;
+    border:transparent;
     font-size: 15px;
 }
 
 .btn-8{
     background-color: rgb(255,252,232);
     border-radius: 5px;
-    border-style: none;
+    border:transparent;
     font-size: 15px;
 }
 
 .btn-9{
     background-color: rgb(253,248,246);
     border-radius: 5px;
-    border-style: none;
+    border: transparent;
     font-size: 15px;
 }
 
 .btn-0{
     background-color: rgb(255,255,255);
     border-radius: 5px;
-    border-style: none;
+    border: transparent;
     font-size: 15px;
 }

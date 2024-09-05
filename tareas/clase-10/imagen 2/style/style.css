@@ -1,0 +1,48 @@
+@import url(./normalize.css);
+
+body{
+    width: 100vw;
+    height: 200vh;
+    background-color: grey;
+}
+
+.container{
+    width: 400px;
+    height: 550px;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.container-colum{
+    background-color: white;
+    width: 70px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-zoom{
+    width: 100%;
+    background-color: white;
+    padding: 100px 100px;
+}
+
+.img-edit-outstanding{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.img-edit-zoom{
+    width: 150px;
+}
+
+.container div img{
+    position: sticky;
+    top: 35px;
+}
+
+
