@@ -1,0 +1,121 @@
+@import url(./normalize.css);
+
+:root{
+    --color-primario:rgb(23,29,37);
+    --color-text:rgb(197,195,192);
+    --color-text-secundario:rgb(177,175,173);
+    --color-fondo-btn-header:rgb(92,126,16);
+    --color-text-highlight:rgb(26,159,255);
+    --color-fondo-list: rgb(85, 85, 85);
+    --color-box-shadow: black;
+}
+
+header{
+    background-color: var(--color-primario);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px var(--color-box-shadow);
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    margin: 0px 0px 0px 300px ;
+    cursor: pointer;
+}
+
+.logo i{
+    font-size: 40px;
+    color: var(--color-text);
+}
+
+.title-logo{
+    font-size: 24px;
+}
+
+.title-logo a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.lista{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+.links-list .link{
+    position: relative;
+    list-style-type: none;
+}
+
+.links-list .link a{
+    color:var(--color-text);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration:none;
+    padding: 5px;
+}
+
+.links-list .link a:hover{
+    color: var(--color-text-highlight);
+    text-decoration:underline 3px  var(--color-text-highlight);
+}
+
+.links-list .link:hover .sublinks-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.links-list .link .sublinks-list{
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color:var(--color-fondo-list);
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px var(--color-box-shadow);
+}
+
+.links-list .link .sublinks-list a{
+    color: var(--color-text);
+    font-size: 12px;
+}
+
+.sign-in{
+    width: 300px;
+    margin: 10px 30px 10px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 20px;
+    font-size: 11px;
+    padding: 0px 4px;
+    border: none;
+    background-color: transparent;
+    color:var(--color-text);
+    cursor: pointer;
+}
+
+.btn-install{
+    background-color:var(--color-fondo-btn-header) ;
+    border-radius: 5px;
+}
+
+.selector-idiomas{
+    width: 70px;
+    border-left: 1px solid gray;
+}
